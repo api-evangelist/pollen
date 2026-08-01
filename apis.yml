@@ -1,8 +1,33 @@
 aid: pollen
 name: Pollen
-description: Pollen is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pollen Technologies is a London-based, FCA-authorised white-label fintech
+  platform that lets any business launch its own banking and payments product
+  with no code and a fully managed back office. The platform delivers
+  programmatic payment delivery, instant named IBAN account opening, third-party
+  bank account linking for real-time balances and transaction data, multi-currency
+  payments across 148 currencies into more than 160 countries, local payment
+  schemes, and virtual and physical cards. A managed compliance layer covers KYC,
+  AML, transaction monitoring, client fund safeguarding and help-desk support
+  under SLAs. Pollen Technologies Ltd is authorised by the Financial Conduct
+  Authority under the Payment Services Regulations 2017 (firm reference 768011),
+  founded in 2015 and backed by Seedcamp, Level39 and Q-Advisers. Access to the
+  underlying payments and banking APIs is delivered as a managed, partner-only
+  service rather than a public self-serve developer program, so no public API
+  specifications, SDKs or developer portal are currently published.
 url: https://raw.githubusercontent.com/api-evangelist/pollen/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5fc23479afc1eb8088c7cfe6/5fc23479afc1ebab83c7d058_Icon_100px%20(2).png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +36,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Payments
+- Banking
+- White Label
+- Open Banking
+- Multi-Currency
+- Compliance
+- Embedded Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +55,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://pollentechnologies.com
+  url: https://www.pollentechnologies.com
+- type: Support
+  url: https://www.pollentechnologies.com/contact
+- type: TermsOfService
+  url: https://docs.google.com/document/u/2/d/e/2PACX-1vS0kdVKlHYQt-xhST_YjOes_RT8i5eGjZ4S__cHMMNS1TboxE5GOYZ1hQ708M9ZVeafnoo6A3qMTzll/pub
+- type: PrivacyPolicy
+  url: https://www.pollentechnologies.com/legal/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
